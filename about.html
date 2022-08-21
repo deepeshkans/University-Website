@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Netaji Subhas University of Technology</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,500&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="logo.png"><a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+            </nav>
+            <h1>About Us</h1>
+        </section>
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>Netaji Subhas University of Technology</h1>
+                    <p>
+                        Previously NSUT is an Autonomous Institution under Govt. of NCT of Delhi and affiliated to University of Delhi, Netaji Subhas Institute of Technology is a seat of higher technical education in India. It was established in the year 1983 as Delhi Institute of Technology with the objective of meeting the growing demands of manpower in the emerging fields of engineering and technology with a close social and industrial interface. Over a period of time, the institute has carved a niche for itself, both nationally and internationally, for excellence in technical education and research.
+                        
+                        </p>
+                        <a href="http://www.nsit.ac.in/about/" class="hero-btn red-btn">EXPLORE</a>
+
+                </div>
+                <div class="about-col"><img src="flag.jpeg"></div>
+                
+            </div>
+        </section>
+        <section class="footer">
+           
+            <p>Made with Love by Deepesh Kansotia</p>
+        </section>
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html> 
