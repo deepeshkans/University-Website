@@ -2,7 +2,7 @@
 
 
 
-### Welcome to the new UNofficial website project of Netaji Subhas University of Technology.
+### Welcome to the " new UNofficial website project" of Netaji Subhas University of Technology.
 
 
 ##### NOTE: This repository is not a official college website, therefore the requests made here for content addition/modifiation are ineffective.
